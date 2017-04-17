@@ -1,0 +1,22 @@
+{
+  "name": "todo-list",
+  "version": "0.1.0",
+  "description": "todo-list from udemy node course",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stvischer/todo-list.git"
+  },
+  "author": "stefan.vischer@lemon42.at",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stvischer/todo-list/issues"
+  },
+  "homepage": "https://github.com/stvischer/todo-list#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
