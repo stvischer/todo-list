@@ -4,7 +4,8 @@
   "description": "todo-list from udemy node course",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha server/**/*.test.js",
+    "test-watch": "nodemon --exec `npm test`"
   },
   "repository": {
     "type": "git",
@@ -17,8 +18,17 @@
   },
   "homepage": "https://github.com/stvischer/todo-list#readme",
   "dependencies": {
+    "body-parser": "^1.17.1",
     "config": "^1.25.1",
     "express": "^4.15.2",
-    "hbs": "^4.0.1"
+    "hbs": "^4.0.1",
+    "mongodb": "^2.2.25",
+    "mongoose": "^4.9.6"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.3.0",
+    "nodemon": "^1.11.0",
+    "supertest": "^3.0.0"
   }
 }
